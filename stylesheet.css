@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300');
+
+body, html{width:100%;height:100%;overflow:hidden;}
+
+body{
+    background:url(bg.png) #1c1719;
+    background-repeat: repeat;
+}
+
+#img{
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+ background:url(du30.png);
+    background-size:cover;
+    background-position: center;
+    max-width:870px;
+    max-height:951px;
+    height:80%;
+    z-index:99999;
+}
+
+.theWord{
+    margin-top:5%;
+    max-width:70%;
+    z-index:9999999;
+}
+
+#words{
+    pointer-events: none;
+    opacity:0.3
+}
+
+.aword{
+    position:absolute;
+    width:220px;
+    color:#fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size:10pt;
+    line-height:15pt;
+    padding:.3em;
+    left:0; margin:0;
+}
